@@ -44,7 +44,7 @@ import os
 import pickle
 
 folderpath = os.path.dirname(Visum.IO.CurrentVersionFile)
-with open(f'{folder_path}\\skim_dict.pkl', 'rb') as f:
+with open(f'{folderpath}\\skim_dict.pkl', 'rb') as f:
         skims = pickle.load(f)
 
 mats = skims['AM']
