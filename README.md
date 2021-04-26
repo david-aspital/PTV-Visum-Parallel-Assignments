@@ -85,6 +85,23 @@ This setup should not introduce a large number of dependencies, however there ar
     * skim_dict.pkl
 2. The `parallel_assignments.py` file must be run as an external script from Visum; the code cannot be copied directly into the dialog box
 
+## How the Script Works
+The script works as follows:
+* The required Python modules are imported. These are all installed by default into the PTV Visum environment and hence no additional setup is required.
+* The skims and demand matrix definitions are loaded.
+* A `Temp` sub-folder is created (if it does not exist already). This becomes the working directory for the tool and is where the matrices, Visum versions and supplementary files are stored. If you wish to amend this location, change line 72 in the script.
+* The assignment demand matrices for each time period are saved out from the master version into the Temp folder.
+* If it is the first pass of the model, the procedure files `AM.xml`, `IP.xml` and `PM.xml` are copied to the temp folder. The network is then exported to the `Net.net` file in the `Temp` folder, along with the demand data (apart from matrices). The *create_model* function is then run simultaneously for each time period, which opens Visum and imports the following data:
+*	The network from `Net.net`
+*	The demand data from `Dmd.dmd`
+*	The relevant matrix definitions from `AM.dmd`, `IP.dmd`, or `PM.dmd`
+*	The relevant matrices saved out from the master file
+*	The relevant procedure sequence from `AM.xml`, `IP.xml`, or `PM.xml`
+*	The assignments are then run and the version files are saved. The skim matrices are then saved out of each of the files
+*	If it is not the first or final pass, the *run_model* function is run and the relevant Visum version files are opened, the assignment matrices are imported and the procedure sequence is re-run, using the current solution as the initial result. The version file is saved, and the skim matrices are saved out.
+*	If it is the final pass of the model (defined as the *final_test* Boolean variable), the *run_final_model* function is run, which is similar to the *run_model* function, but can be expanded to take account of any variation in model running procedure that may be required (additional data to be exported, different convergence criteria etc).
+
+
 ## Extensions
 Possible extensions that could be made to this script include:
 * Exporting additional data (such as link flows) back from the sub-ordinate files into the master
