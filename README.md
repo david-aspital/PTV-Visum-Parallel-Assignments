@@ -1,6 +1,6 @@
 # PTV Visum Parallel Assignments
 Example code to demonstrate how private transport assignments for multiple time periods can be run in parallel with PTV Visum.
-Please contact [David Aspital](mailto:david.aspital@ptvgroup.com?subject=[GitHub] Parallel Assignments Tool), or log an issue if you have any quereies about this tool.
+Please contact [David Aspital](mailto:david.aspital@ptvgroup.com?subject=[GitHub]%20Parallel%20Assignments%20Tool), or log an issue if you have any quereies about this tool.
 ## Assumptions
 
 The following assumptions and limitations are built in to the current version of the tool, although these can likely be overcome with small changes to the scripts:
