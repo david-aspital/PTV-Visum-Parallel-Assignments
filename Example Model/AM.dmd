@@ -1,0 +1,33 @@
+$VISION
+* Inhouse License (Productive)
+* 04/22/21
+* 
+* Table: Version block
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+12.000;Demand;ENG;MI
+
+* 
+* Table: Matrices
+* 
+$MATRIX:NO;CODE;NAME;MATRIXTYPE;OBJECTTYPEREF;DSEGCODE;DSTRATCODE;DSTRATSET;FILENAME;NUMDECPLACES;DATASOURCETYPE;FORMULA;DAY;FROMTIME;TOTIME;TIMEREF;DMODELCODE;PERSONGROUPCODE;ACTIVITYCODE;ORIGACTIVITYCODE;DESTACTIVITYCODE;MODECODE;MODESET;PERSONGROUPSET;ORIGACTIVITYSET;DESTACTIVITYSET
+1;CB_AM;Car Business AM Demand;Demand;Zone;CB_AM;;;;3;Data;;;;;NEUTRAL;;;;;;;;;;
+4;CC_AM;Car Commute AM Demand;Demand;Zone;CC_AM;;;;3;Data;;;;;NEUTRAL;;;;;;;;;;
+7;CO_AM;Car Other AM Demand;Demand;Zone;CO_AM;;;;3;Data;;;;;NEUTRAL;;;;;;;;;;
+10;HGV_AM;Heavy Goods Vehicles AM Demand;Demand;Zone;HGV_AM;;;;3;Data;;;;;NEUTRAL;;;;;;;;;;
+13;LGV_AM;Light Goods Vehicles AM Demand;Demand;Zone;LGV_AM;;;;3;Data;;;;;NEUTRAL;;;;;;;;;;
+16;TTC;tCur CB_AM;Skim;Zone;CB_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+17;DIS;Trip distance CB_AM;Skim;Zone;CB_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+18;TOL;Toll CB_AM;Skim;Zone;CB_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+19;TTC;tCur CC_AM;Skim;Zone;CC_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+20;DIS;Trip distance CC_AM;Skim;Zone;CC_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+21;TOL;Toll CC_AM;Skim;Zone;CC_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+22;TTC;tCur CO_AM;Skim;Zone;CO_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+23;DIS;Trip distance CO_AM;Skim;Zone;CO_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+24;TOL;Toll CO_AM;Skim;Zone;CO_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+25;TTC;tCur HGV_AM;Skim;Zone;HGV_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+26;DIS;Trip distance HGV_AM;Skim;Zone;HGV_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+27;TOL;Toll HGV_AM;Skim;Zone;HGV_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+28;TTC;tCur LGV_AM;Skim;Zone;LGV_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+29;DIS;Trip distance LGV_AM;Skim;Zone;LGV_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;
+30;TOL;Toll LGV_AM;Skim;Zone;LGV_AM;;;;0;Data;;;;;NEUTRAL;;;;;;;;;;

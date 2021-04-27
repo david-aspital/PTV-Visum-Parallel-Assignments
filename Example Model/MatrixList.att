@@ -1,0 +1,74 @@
+$VISION
+* Inhouse License (Productive)
+* 04/26/21
+* 
+* Table: Version block
+* 
+$VERSION:VERSNR	FILETYPE	LANGUAGE	UNIT
+12.00	Att	ENG	MI
+
+* 
+* Table: Matrices
+* 
+$MATRIX:NO	CODE	NAME	MATRIXTYPE	OBJECTTYPEREF	SUM	DSEGCODE	DATASOURCETYPE	FORMULA
+1	CB_AM	Demand CB_AM	Demand	Zone	3363.000	CB_AM	Data	
+2	CB_IP	Demand CB_IP	Demand	Zone	3363.000	CB_IP	Data	
+3	CB_PM	Demand CB_PM	Demand	Zone	3363.000	CB_PM	Data	
+4	CC_AM	Demand CC_AM	Demand	Zone	3363.000	CC_AM	Data	
+5	CC_IP	Demand CC_IP	Demand	Zone	3363.000	CC_IP	Data	
+6	CC_PM	Demand CC_PM	Demand	Zone	3363.000	CC_PM	Data	
+7	CO_AM	Demand CO_AM	Demand	Zone	3363.000	CO_AM	Data	
+8	CO_IP	Demand CO_IP	Demand	Zone	3363.000	CO_IP	Data	
+9	CO_PM	Demand CO_PM	Demand	Zone	3363.000	CO_PM	Data	
+10	HGV_AM	Demand HGV_AM	Demand	Zone	3363.000	HGV_AM	Data	
+11	HGV_IP	Demand HGV_IP	Demand	Zone	3363.000	HGV_IP	Data	
+12	HGV_PM	Demand HGV_PM	Demand	Zone	3363.000	HGV_PM	Data	
+13	LGV_AM	Demand LGV_AM	Demand	Zone	3363.000	LGV_AM	Data	
+14	LGV_IP	Demand LGV_IP	Demand	Zone	3363.000	LGV_IP	Data	
+15	LGV_PM	Demand LGV_PM	Demand	Zone	3363.000	LGV_PM	Data	
+16	TTC	tCur CB_AM	Skim	Zone	5649.486	CB_AM	Data	
+17	DIS	Trip distance CB_AM	Skim	Zone	2496.079	CB_AM	Data	
+18	TOL	Toll CB_AM	Skim	Zone	0.000	CB_AM	Data	
+19	TTC	tCur CC_AM	Skim	Zone	5649.440	CC_AM	Data	
+20	DIS	Trip distance CC_AM	Skim	Zone	2497.509	CC_AM	Data	
+21	TOL	Toll CC_AM	Skim	Zone	0.000	CC_AM	Data	
+22	TTC	tCur CO_AM	Skim	Zone	5649.445	CO_AM	Data	
+23	DIS	Trip distance CO_AM	Skim	Zone	2497.126	CO_AM	Data	
+24	TOL	Toll CO_AM	Skim	Zone	0.000	CO_AM	Data	
+25	TTC	tCur HGV_AM	Skim	Zone	5649.450	HGV_AM	Data	
+26	DIS	Trip distance HGV_AM	Skim	Zone	2498.575	HGV_AM	Data	
+27	TOL	Toll HGV_AM	Skim	Zone	0.000	HGV_AM	Data	
+28	TTC	tCur LGV_AM	Skim	Zone	5649.447	LGV_AM	Data	
+29	DIS	Trip distance LGV_AM	Skim	Zone	2497.177	LGV_AM	Data	
+30	TOL	Toll LGV_AM	Skim	Zone	0.000	LGV_AM	Data	
+31	TTC	tCur CB_IP	Skim	Zone	8243.582	CB_IP	Data	
+32	DIS	Trip distance CB_IP	Skim	Zone	2499.098	CB_IP	Data	
+33	TOL	Toll CB_IP	Skim	Zone	0.000	CB_IP	Data	
+34	TTC	tCur CC_IP	Skim	Zone	8243.582	CC_IP	Data	
+35	DIS	Trip distance CC_IP	Skim	Zone	2494.867	CC_IP	Data	
+36	TOL	Toll CC_IP	Skim	Zone	0.000	CC_IP	Data	
+37	TTC	tCur CO_IP	Skim	Zone	8243.582	CO_IP	Data	
+38	DIS	Trip distance CO_IP	Skim	Zone	2496.314	CO_IP	Data	
+39	TOL	Toll CO_IP	Skim	Zone	0.000	CO_IP	Data	
+40	TTC	tCur HGV_IP	Skim	Zone	8243.582	HGV_IP	Data	
+41	DIS	Trip distance HGV_IP	Skim	Zone	2498.144	HGV_IP	Data	
+42	TOL	Toll HGV_IP	Skim	Zone	0.000	HGV_IP	Data	
+43	TTC	tCur LGV_IP	Skim	Zone	8243.582	LGV_IP	Data	
+44	DIS	Trip distance LGV_IP	Skim	Zone	2496.622	LGV_IP	Data	
+45	TOL	Toll LGV_IP	Skim	Zone	0.000	LGV_IP	Data	
+46	TTC	tCur CB_PM	Skim	Zone	10517.722	CB_PM	Data	
+47	DIS	Trip distance CB_PM	Skim	Zone	2501.352	CB_PM	Data	
+48	TOL	Toll CB_PM	Skim	Zone	0.000	CB_PM	Data	
+49	TTC	tCur CC_PM	Skim	Zone	10517.722	CC_PM	Data	
+50	DIS	Trip distance CC_PM	Skim	Zone	2498.746	CC_PM	Data	
+51	TOL	Toll CC_PM	Skim	Zone	0.000	CC_PM	Data	
+52	TTC	tCur CO_PM	Skim	Zone	10517.722	CO_PM	Data	
+53	DIS	Trip distance CO_PM	Skim	Zone	2499.573	CO_PM	Data	
+54	TOL	Toll CO_PM	Skim	Zone	0.000	CO_PM	Data	
+55	TTC	tCur HGV_PM	Skim	Zone	10517.722	HGV_PM	Data	
+56	DIS	Trip distance HGV_PM	Skim	Zone	2499.287	HGV_PM	Data	
+57	TOL	Toll HGV_PM	Skim	Zone	0.000	HGV_PM	Data	
+58	TTC	tCur LGV_PM	Skim	Zone	10517.722	LGV_PM	Data	
+59	DIS	Trip distance LGV_PM	Skim	Zone	2499.094	LGV_PM	Data	
+60	TOL	Toll LGV_PM	Skim	Zone	0.000	LGV_PM	Data	
+
