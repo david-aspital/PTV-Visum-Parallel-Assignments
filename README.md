@@ -23,7 +23,7 @@ The `AM.dmd`, `IP.dmd` and `PM.dmd` files can be created as follows:
 1. Open the master version file
 2. Navigate to *File > Save file as > Demand data...*
 3. Give the file an arbitrary name
-4. From the attribute selection dialog, unckeck all tables apart from *Matrix entries*
+4. From the attribute selection dialog, uncheck all tables apart from *Matrix entries*
 5. Save the file
 6. Open the file in a text editor and delete from the matrices table all rows that do not correspond to the AM demand and skim matrices, and save as *AM.dmd*
 7. Repeat Step 6. for the IP and PM time periods
