@@ -53,7 +53,8 @@ for mat in mats:
 	mtx = Visum.Net.Matrices.ItemByKey(mat)
 	mtx.Save(folderpath+r"\\"+mats[mat],0)
 ```
-4. Repeat steps 2 and 3 for the IP and PM time periods (noting that the `mats = skims['AM']` line in the script will need to be edited)
+4. Save the procedure sequence as `AM.xml` in the model folder
+5. Repeat steps 2, 3 and 4 for the IP and PM time periods (noting that the `mats = skims['AM']` line in the script will need to be edited)
 
 ### Matrix Definitions
 Two sets of lookups are required to ensure that the demand and skim matrices are exchanged correctly between the master and sub-ordinate files. These are produced by running the `process_matrix_att.py` script as follows:
