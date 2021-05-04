@@ -36,7 +36,7 @@ The `AM.dmd`, `IP.dmd` and `PM.dmd` files can be created as follows:
 
 The `AM.xml`, `IP.xml` and `PM.xml` files can be created as follows:
 1. Open the master version file
-2. Delete the procedure sequence apart from the section that runs the AM assignment and calculates skims
+2. Delete or uncheck the procedure sequence apart from the section that runs the AM assignment and calculates skims
 3. Add a 'Run script' procedure at the end and insert the following code into the dialog box:
 
 ```
