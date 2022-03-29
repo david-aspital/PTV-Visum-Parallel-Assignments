@@ -1,13 +1,13 @@
 # PTV Visum Parallel Assignments
 Example code to demonstrate how private transport assignments for multiple time periods can be run in parallel with PTV Visum.
-Please contact [David Aspital](mailto:david.aspital@ptvgroup.com?subject=[GitHub]%20Parallel%20Assignments%20Tool), or log an issue if you have any quereies about this tool.
+Please contact [David Aspital](mailto:david.aspital@ptvgroup.com?subject=[GitHub]%20Parallel%20Assignments%20Tool), or log an issue if you have any queries about this tool.
 ## Assumptions
 
 The following assumptions and limitations are built in to the current version of the tool, although these can likely be overcome with small changes to the scripts:
-* The tool is built for Visum 2021. Users of this tool are assumed to be familiar with PTV Visum and Transport Modelling terminology. For more info about PTV Visum, please visit: https://www.ptvgroup.com/en/solutions/products/ptv-visum/.
+* The tool is built for Visum 2022. Note that there is a branch of this repository that contains the equivalent code for a model using Visum 21. Users of this tool are assumed to be familiar with PTV Visum and Transport Modelling terminology. For more info about PTV Visum, please visit: https://www.ptvgroup.com/en/solutions/products/ptv-visum/.
 * 3 time periods AM, IP and PM are modelled in this example.
 * Skims are the only data that are required to be brought back into the master file
-* A fixed number of iteratons (3) is carried out between demand and supply
+* A fixed number of iterations (3) is carried out between demand and supply
 
 ## Input File Creation
 This section covers the template files and model definitions that need to be created in order for the tool to produce the correct sub-ordinate assignment files.
