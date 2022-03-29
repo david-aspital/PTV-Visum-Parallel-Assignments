@@ -1,0 +1,15 @@
+﻿03/29/22 16.58.23.376 Open file
+03/29/22 16.58.23.376 Open "C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\Temp\LogFile_29-03-2022_16-58-23.txt"
+03/29/22 16.58.23.378 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand CB_PM.mtx
+03/29/22 16.58.23.382 Cannot open matrix. Network does not contain zones
+03/29/22 16.58.23.382 CComMatrix::Open failed
+03/29/22 16.58.56.350 Do you want to save your changes? The changes to the current file are lost if you do not save them. : &Cancel
+03/29/22 17.00.46.962 Do you want to save your changes? The changes to the current file are lost if you do not save them. : &No
+03/29/22 17.00.47.038 Delete network
+03/29/22 17.01.01.855 Delete network
+03/29/22 17.02.00.160 Object was not created - File: "Net.net" Table: ZONE Zeile: 1265 Attribute: SURFACEID Empty values are not permitted here.: Cancel
+03/29/22 17.02.00.428 Delete network
+03/29/22 17.02.10.690 Do you want to save your changes? The changes to the current file are lost if you do not save them. : &No
+03/29/22 17.02.13.819 Delete network
+03/29/22 17.03.43.386 Do you want to save your changes? The changes to the current file are lost if you do not save them. : &No
+03/29/22 17.03.45.723 Close file

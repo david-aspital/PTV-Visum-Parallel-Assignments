@@ -1,0 +1,6 @@
+﻿03/29/22 16.49.07.433 Open file
+03/29/22 16.49.07.433 Open "C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\Temp\LogFile_29-03-2022_16-49-07.txt"
+03/29/22 16.49.07.436 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand CB_IP.mtx
+03/29/22 16.49.07.457 Cannot open matrix. Network does not contain zones
+03/29/22 16.49.07.458 CComMatrix::Open failed
+03/29/22 16.49.31.708 Close file

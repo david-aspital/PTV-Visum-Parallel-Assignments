@@ -10,7 +10,7 @@ def create_model(temp_path, time_period):
     # Function to open and run individual models 
 
     # Launch Visum instance
-    Visum = com.Dispatch("Visum.Visum.210")       
+    Visum = com.Dispatch("Visum.Visum.220")       
     # Load network, demand, matrices and procedure sequence
     Visum.IO.LoadNet(f"{temp_path}\\Net.net", False, None, None, False, False, -1)
     Visum.IO.LoadDemandFile(f"{temp_path}\\Dmd.dmd", True)
@@ -32,7 +32,7 @@ def run_model(temp_path, time_period):
     # Function to open and run individual models 
 
     # Launch Visum instance
-    Visum = com.Dispatch("Visum.Visum.210")       
+    Visum = com.Dispatch("Visum.Visum.220")       
     # Load network, demand, matrices and procedure sequence
     Visum.LoadVersion(f"{temp_path}\\{time_period}.ver")
     demand_tp = demand[time_period]
@@ -49,7 +49,7 @@ def run_final_model(temp_path, time_period):
     # Function to open and run individual models, including all steps  
 
     # Launch Visum instance
-    Visum = com.Dispatch("Visum.Visum.210")       
+    Visum = com.Dispatch("Visum.Visum.220")       
     # Load network, demand, matrices and procedure sequence
     Visum.LoadVersion(f"{temp_path}\\{time_period}.ver")
     demand_tp = demand[time_period]
@@ -94,7 +94,7 @@ if __name__ == '__main__':
         net_file = f"{temp_path}\\Net.net"
         dmd_file = f"{temp_path}\\Dmd.dmd"
         Visum.IO.SaveDemandFile(dmd_file, False, "DmdNoMats.dmd")
-        Visum.IO.SaveNet(net_file)
+        Visum.IO.SaveNet(net_file, editableOnly=True)
 
     # Dictionaries for skims and demand matrices
     with open(f'{temp_path}\\skim_dict.pkl', 'rb') as f:

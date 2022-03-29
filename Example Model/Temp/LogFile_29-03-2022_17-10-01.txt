@@ -1,0 +1,392 @@
+﻿03/29/22 17.10.01.099 Open file
+03/29/22 17.10.01.099 Open "C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\Temp\LogFile_29-03-2022_17-10-01.txt"
+03/29/22 17.10.01.104 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand CB_PM.mtx
+03/29/22 17.10.01.127 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand CC_PM.mtx
+03/29/22 17.10.01.160 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand CO_PM.mtx
+03/29/22 17.10.01.196 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand HGV_PM.mtx
+03/29/22 17.10.01.226 C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\Demand LGV_PM.mtx
+03/29/22 17.10.01.260 Procedure parameters read from file "C:\Users\david.aspital\Documents\GitHub\PTV-Visum-Parallel-Assignments\Example Model\\Temp\PM.xml".
+03/29/22 17.10.01.343 Start time of Save version PM
+03/29/22 17.10.01.434        6 Transport systems
+03/29/22 17.10.01.445        6 Modes
+03/29/22 17.10.01.455       16 Demand segments
+03/29/22 17.10.01.468        1 Valid days
+03/29/22 17.10.01.480        5 Block item types
+03/29/22 17.10.01.499        2 Directions
+03/29/22 17.10.01.512       42 Points
+03/29/22 17.10.01.525       42 Edges
+03/29/22 17.10.01.534       42 Faces
+03/29/22 17.10.01.547       42 Surfaces
+03/29/22 17.10.01.560      433 Nodes
+03/29/22 17.10.01.569       58 Zones
+03/29/22 17.10.01.580       42 Territories
+03/29/22 17.10.01.594      100 Link types
+03/29/22 17.10.01.608      990 Links
+03/29/22 17.10.01.623     3002 Turns
+03/29/22 17.10.01.632      400 Connectors
+03/29/22 17.10.01.647        1 Fare systems
+03/29/22 17.10.01.675        1 Block versions
+03/29/22 17.10.01.691       59 Geometries
+03/29/22 17.10.01.698      304 Crosswalks
+03/29/22 17.10.01.706       38 Signalized junctions
+03/29/22 17.10.01.726       38 Signal program data
+03/29/22 17.10.01.741        1 Demand models
+03/29/22 17.10.01.746        1 Time series
+03/29/22 17.10.01.761       20 Matrices
+03/29/22 17.10.01.772       20 Matrix data
+03/29/22 17.10.01.780        1 Demand time series
+03/29/22 17.10.01.788       16 Demand descriptions
+03/29/22 17.10.01.801        1 Path sets
+03/29/22 17.10.01.957 Save version PM End time
+03/29/22 17.10.01.984 Procedure - start
+03/29/22 17.10.02.111 Start Procedure step   1: "Group"
+03/29/22 17.10.02.111 End Procedure step   1: "Group", run time 0.000024s
+03/29/22 17.10.02.111 Start Procedure step   2: "PrT assignment"
+03/29/22 17.10.02.118 Start of ICA calculation
+03/29/22 17.10.02.120 End of ICA calculation
+03/29/22 17.10.02.164 Number of nodes:     exploded 0 and non-exploded 433
+03/29/22 17.10.02.164 Number of main nodes: exploded 0 and non-exploded 0
+03/29/22 17.10.02.189 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.227 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.228 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.229 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.248 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.299 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.299 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.299 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.299 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.300 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.300 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.308 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.308 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.325 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.325 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.325 CCH Statistics for tsys CB
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7149
+CH backward search space size: 4592
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9260
+CH backward search space size: 5893
+using arc-based node order
+03/29/22 17.10.02.325 CCH Statistics for tsys CC
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7149
+CH backward search space size: 4592
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9260
+CH backward search space size: 5893
+using arc-based node order
+03/29/22 17.10.02.325 CCH Statistics for tsys CO
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7149
+CH backward search space size: 4592
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9260
+CH backward search space size: 5893
+using arc-based node order
+03/29/22 17.10.02.325 CCH Statistics for tsys HGV
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7149
+CH backward search space size: 4592
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9260
+CH backward search space size: 5893
+using arc-based node order
+03/29/22 17.10.02.325 CCH Statistics for tsys LGV
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7149
+CH backward search space size: 4592
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9260
+CH backward search space size: 5893
+using arc-based node order
+03/29/22 17.10.02.422 Iter	MeanEquiCalls	MeanAlpha	CalcTime	PCUImp	HypoShortPathPCUImp	ExcessCost	GAP	MissingEffLinks
+03/29/22 17.10.02.422    1	1.000	1.000000000	0.254000000	717666	717666	0.000000	1.0000000000e+00	0.0000000000e+00
+03/29/22 17.10.02.460    2	1.000	1.000000000	0.295000000	736023	736023	0.000000	1.0000000000e+00	0.0000000000e+00
+03/29/22 17.10.02.500    3	1.000	1.000000000	0.336000000	775221	775221	0.000000	1.0000000000e+00	0.0000000000e+00
+03/29/22 17.10.02.539    4	1.000	1.000000000	0.375000000	835258	835258	0.000000	1.0000000000e+00	0.0000000000e+00
+03/29/22 17.10.02.581    5	1.000	1.000000000	0.416000000	916136	916136	0.000000	1.0000000000e+00	0.0000000000e+00
+03/29/22 17.10.02.614 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.614 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.619 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.619 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.622 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.622 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.624 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.624 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.627 Unpacking vectors contain 45902 entries for 4560 of 7254 forward arcs and 4592 of 7149 backward arcs. Total unpacked arc count is 47445
+03/29/22 17.10.02.627 CH contains 1506 nodes, 7254 forward edges, 7149 backward edges
+03/29/22 17.10.02.633    6	1.003	0.006896552	0.453000000	975955	975955	0.000000	1.0854792395e-15	0.0000000000e+00
+03/29/22 17.10.02.682 The assignment reached convergence after 6 of a maximum of 100 iterations with GAP of 1.08547924e-15.
+03/29/22 17.10.02.683 __Total                          time:        526
+03/29/22 17.10.02.683 __Init                           time:        168 0.319392
+03/29/22 17.10.02.683 __ExportTotal                    time:         48 0.091255
+03/29/22 17.10.02.683 __LuceDescentDirection           time:        143 0.271863
+03/29/22 17.10.02.683 __AggDirFlow                     time:          6 0.011407
+03/29/22 17.10.02.683 __AlfaStep                       time:          0 0.000000
+03/29/22 17.10.02.683 __UpdateEquilibriumFlows         time:         55 0.104563
+03/29/22 17.10.02.683 __UpdateAndZipBushFlows          time:         11 0.020913
+03/29/22 17.10.02.683 __RecalcImp                      time:          1 0.001901
+03/29/22 17.10.02.683 __BushEntropyTotal               time:          0
+03/29/22 17.10.02.683 __BushEntropyCollectAllMeshes    time:          0 0.000000
+03/29/22 17.10.02.683 __BushEntropyStoreMatchingBushes time:          0 0.000000
+03/29/22 17.10.02.683 __BushEntropyApplyMeshes         time:          0 0.000000
+03/29/22 17.10.02.683 __DescDirShortestTree            time:         18 0.127660
+03/29/22 17.10.02.683 __DescDirUnZipBushFlow           time:         33 0.234043
+03/29/22 17.10.02.683 __DescDirInitBush                time:         10 0.070922
+03/29/22 17.10.02.683 __DescDirExist2InitBush          time:          0 0.000000
+03/29/22 17.10.02.683 __DescDirBuildBush               time:          8 0.056738
+03/29/22 17.10.02.683 __DescDirExpandBushMin           time:          0 0.000000
+03/29/22 17.10.02.683 __DescDirLoadDem2NodeFlow        time:          4 0.028369
+03/29/22 17.10.02.683 __DescDirLoadEq                  time:         26 0.184397
+03/29/22 17.10.02.683 __DescDirCostEq                  time:         40 0.283688
+03/29/22 17.10.02.693 End Procedure step   2: "PrT assignment", run time 0.582111s
+03/29/22 17.10.02.693 Start Procedure step   3: "Calculate PrT skim matrix"
+03/29/22 17.10.02.733 Start of ICA calculation
+03/29/22 17.10.02.735 End of ICA calculation
+03/29/22 17.10.02.742 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.777 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.02.777 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.02.777 CCH Statistics for tsys CB
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7109
+CH backward search space size: 4552
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9197
+CH backward search space size: 5830
+using arc-based node order
+03/29/22 17.10.02.780 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.02.780 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.02.829 End Procedure step   3: "Calculate PrT skim matrix", run time 0.135767s
+03/29/22 17.10.02.829 Start Procedure step   4: "Calculate PrT skim matrix"
+03/29/22 17.10.02.870 Start of ICA calculation
+03/29/22 17.10.02.872 End of ICA calculation
+03/29/22 17.10.02.879 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.02.908 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.02.908 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.02.908 CCH Statistics for tsys CC
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7109
+CH backward search space size: 4552
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9197
+CH backward search space size: 5830
+using arc-based node order
+03/29/22 17.10.02.911 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.02.911 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.02.951 End Procedure step   4: "Calculate PrT skim matrix", run time 0.121768s
+03/29/22 17.10.02.951 Start Procedure step   5: "Calculate PrT skim matrix"
+03/29/22 17.10.02.979 Start of ICA calculation
+03/29/22 17.10.02.979 End of ICA calculation
+03/29/22 17.10.02.985 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.03.015 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.03.015 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.03.015 CCH Statistics for tsys CO
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7109
+CH backward search space size: 4552
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9197
+CH backward search space size: 5830
+using arc-based node order
+03/29/22 17.10.03.018 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.03.018 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.03.059 End Procedure step   5: "Calculate PrT skim matrix", run time 0.108335s
+03/29/22 17.10.03.060 Start Procedure step   6: "Calculate PrT skim matrix"
+03/29/22 17.10.03.083 Start of ICA calculation
+03/29/22 17.10.03.085 End of ICA calculation
+03/29/22 17.10.03.089 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.03.120 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.03.120 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.03.120 CCH Statistics for tsys HGV
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7109
+CH backward search space size: 4552
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9197
+CH backward search space size: 5830
+using arc-based node order
+03/29/22 17.10.03.123 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.03.123 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.03.165 End Procedure step   6: "Calculate PrT skim matrix", run time 0.105167s
+03/29/22 17.10.03.165 Start Procedure step   7: "Calculate PrT skim matrix"
+03/29/22 17.10.03.195 Start of ICA calculation
+03/29/22 17.10.03.195 End of ICA calculation
+03/29/22 17.10.03.200 Finished computing top level separator, its size is 34 nodes.
+03/29/22 17.10.03.235 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.03.235 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.03.235 CCH Statistics for tsys LGV
+Node order: Arc separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 20817
+CCH arc count after filtering: 13648
+CCH triangle count before filtering: 196199
+CCH triangle count after filtering: 69559
+CH backward arc count: 7109
+CH backward search space size: 4552
+Node order: Node separators.
+Input node count: 1506
+Input arc count: 4004
+CCH arc count before filtering: 25025
+CCH arc count after filtering: 17589
+CCH triangle count before filtering: 384936
+CCH triangle count after filtering: 164178
+CH backward arc count: 9197
+CH backward search space size: 5830
+using arc-based node order
+03/29/22 17.10.03.239 Unpacking vectors contain 45134 entries for 4498 of 7183 forward arcs and 4552 of 7109 backward arcs. Total unpacked arc count is 46469
+03/29/22 17.10.03.239 CH contains 1506 nodes, 7183 forward edges, 7109 backward edges
+03/29/22 17.10.03.283 End Procedure step   7: "Calculate PrT skim matrix", run time 0.117710s
+03/29/22 17.10.03.283 Start Procedure step   8: "Run script"
+03/29/22 17.10.03.955 End Procedure step   8: "Run script", run time 0.672485s
+03/29/22 17.10.03.958 MatrixPool: FreeMatrices
+03/29/22 17.10.03.958 MatrixPool: In use  : 0
+03/29/22 17.10.03.958 MatrixPool: Free           : 0
+03/29/22 17.10.03.958 MatrixPool: Max. size     : 1
+03/29/22 17.10.03.958 MatrixPool: Created       : 1
+03/29/22 17.10.03.958 MatrixPool: Reused: 14
+03/29/22 17.10.03.998 Procedure - end
+03/29/22 17.10.04.062 Start time of Save version PM
+03/29/22 17.10.04.125        6 Transport systems
+03/29/22 17.10.04.131        6 Modes
+03/29/22 17.10.04.139       16 Demand segments
+03/29/22 17.10.04.146        1 Valid days
+03/29/22 17.10.04.156        5 Block item types
+03/29/22 17.10.04.164        2 Directions
+03/29/22 17.10.04.174       42 Points
+03/29/22 17.10.04.180       42 Edges
+03/29/22 17.10.04.187       42 Faces
+03/29/22 17.10.04.194       42 Surfaces
+03/29/22 17.10.04.199      433 Nodes
+03/29/22 17.10.04.208       58 Zones
+03/29/22 17.10.04.214       42 Territories
+03/29/22 17.10.04.223      100 Link types
+03/29/22 17.10.04.231      990 Links
+03/29/22 17.10.04.247     3002 Turns
+03/29/22 17.10.04.257      400 Connectors
+03/29/22 17.10.04.266        1 Fare systems
+03/29/22 17.10.04.287        1 Block versions
+03/29/22 17.10.04.304       59 Geometries
+03/29/22 17.10.04.313      304 Crosswalks
+03/29/22 17.10.04.323       38 Signalized junctions
+03/29/22 17.10.04.340       38 Signal program data
+03/29/22 17.10.04.355        1 Demand models
+03/29/22 17.10.04.361        1 Time series
+03/29/22 17.10.04.374       20 Matrices
+03/29/22 17.10.04.382       20 Matrix data
+03/29/22 17.10.04.388        1 Demand time series
+03/29/22 17.10.04.394       16 Demand descriptions
+03/29/22 17.10.04.403        1 Path sets
+03/29/22 17.10.04.464       36 PrT assignment quality data
+03/29/22 17.10.04.531 Save version PM End time
+03/29/22 17.10.07.501 Close file
