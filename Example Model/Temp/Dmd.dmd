@@ -1,11 +1,11 @@
 ﻿$VISION
 * Visum Inhouse License (Productive)
-* 03/29/22
+* 03/28/23
 * 
 * Table: Version block
 * 
 $VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
-13.000;Demand;ENG;MI
+14.000;Demand;ENG;MI
 
 * 
 * Table: Demand models
@@ -89,23 +89,23 @@ $ZONETYPETIMESERIES:DEMANDTIMESERIESNO;FROMZONETYPENO;TOZONETYPENO;TIMESERIESNO
 * 
 * Table: Demand descriptions
 * 
-$DEMANDDESCRIPTION:DSEGCODE;DEMANDTIMESERIESNO;MATRIX;STARTDAYINDEX;STARTTIME;TIMEREF
-CB_AM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CB_IP;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CB_PM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CC_AM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CC_IP;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CC_PM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CO_AM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CO_IP;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-CO_PM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-HGV_AM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-HGV_IP;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-HGV_PM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-LGV_AM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-LGV_IP;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-LGV_PM;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
-W;1;Matrix([DSegCode] = context[DSegCode]);1;00:00:00;DEPARTURETIME
+$DEMANDDESCRIPTION:DSEGCODE;DEMANDTIMESERIESNO;MATRIX;TIMEREF
+CB_AM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CB_IP;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CB_PM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CC_AM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CC_IP;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CC_PM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CO_AM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CO_IP;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+CO_PM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+HGV_AM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+HGV_IP;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+HGV_PM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+LGV_AM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+LGV_IP;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+LGV_PM;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
+W;1;Matrix([DSegCode] = context[DSegCode]);DEPARTURETIME
 
 * 
 * Table: Trip generation

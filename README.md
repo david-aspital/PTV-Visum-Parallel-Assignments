@@ -4,7 +4,7 @@ Please contact [David Aspital](mailto:david.aspital@ptvgroup.com?subject=[GitHub
 ## Assumptions
 
 The following assumptions and limitations are built in to the current version of the tool, although these can likely be overcome with small changes to the scripts:
-* The tool is built for Visum 2022. Note that there is a branch of this repository that contains the equivalent code for a model using Visum 21. Users of this tool are assumed to be familiar with PTV Visum and Transport Modelling terminology. For more info about PTV Visum, please visit: https://www.ptvgroup.com/en/solutions/products/ptv-visum/.
+* The tool is built for Visum 2023. Note that there is a branch of this repository that contains the equivalent code for a model using Visum 21 or 22. Users of this tool are assumed to be familiar with PTV Visum and Transport Modelling terminology. For more info about PTV Visum, please visit: https://www.ptvgroup.com/en/solutions/products/ptv-visum/.
 * 3 time periods AM, IP and PM are modelled in this example.
 * Skims are the only data that are required to be brought back into the master file
 * A fixed number of iterations (3) is carried out between demand and supply
